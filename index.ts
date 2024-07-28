@@ -7,10 +7,8 @@ const app: Application = express()
 app.use(cors())
 app.use(express.json())
 
-const API_KEY: string = 'sk-None-uZlo9uvu1GFY7DX5XR4gT3BlbkFJrpVTDvJXSbLxK2a7fOwY'
-
 const openai = new OpenAI({
-    apiKey: API_KEY
+    apiKey: process.env.API_KEY
 })
 
 app.post("/completions", async ( req: Request, res: Response ) => {
