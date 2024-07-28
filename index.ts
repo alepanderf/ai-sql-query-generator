@@ -27,4 +27,4 @@ app.post("/completions", async ( req: Request, res: Response ) => {
     }
 })
 
-app.listen(PORT, () => console.log('Your server is running on PORT 3000'))
+app.listen(PORT, () => console.log('Your server is running on PORT 5000'))
