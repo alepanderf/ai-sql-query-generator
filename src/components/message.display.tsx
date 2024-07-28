@@ -2,7 +2,11 @@ import React from 'react'
 
 const MessageDisplay = () => {
     return (
-        <div className="message-display"> message Display</div>
+        <div className="message-display">
+            <p id="icon">X</p>
+            <p>user</p>
+            <p>message</p>
+        </div>
     )
 }
 
