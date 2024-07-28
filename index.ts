@@ -1,7 +1,7 @@
 import express, { Application, Request, Response } from 'express'
 import cors from 'cors'
 import OpenAI  from 'openai'
-const PORT: number = 8000
+const PORT: number = 5000
 
 const app: Application = express()
 app.use(cors())
